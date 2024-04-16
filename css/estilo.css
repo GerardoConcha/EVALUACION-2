@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
         
 }
 .main-header__contactInfo__phone{
@@ -122,6 +122,7 @@ h1,h2,h3,h4,h5{
 	transition: height .3s linear;
 }
 
+
 .menu__link{
     display: block;
     padding: 15px;
@@ -137,6 +138,9 @@ h1,h2,h3,h4,h5{
     background-color: #DE423A;
     
 }
+
+
+
 .mostrar{
     height: 210px;
 }
@@ -231,19 +235,57 @@ h1,h2,h3,h4,h5{
 }
 .today-special__price{
 	font-size: 1.5em;
-	color: #DE423a;
+	color: black;
 	font-weight: bold;
 }
 
+
+.formulario{
+		height: 100%;
+		margin: 5%;
+		display: flex;
+		justify-content: left;
+		align-items: left;
+	  }
+
+.galeriazapas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+		background-color: #000000;
+		color: white;
+		
+    }
+
+    .galeria {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .galeria img {
+        width: 100%;
+				
+    }
+
+    .galeria h1 {
+        text-align: center;
+	
+    }
+
+	  
+	  /* Agrega cualquier otro estilo personalizado que necesites */
+	  
+
 /*----------------Estilos Principales------------------*/
 .main-footer{
-	background: #222;
-	color: #fff;
+	background: #cc9f9f;
+	color: #000000;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: .8em;
 }
+
 .copy{
 	text-align: center;
 	margin: auto;
@@ -252,7 +294,7 @@ h1,h2,h3,h4,h5{
 }
 
 .main-footer [class*="icon-"] {
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 	
 	
@@ -263,9 +305,10 @@ h1,h2,h3,h4,h5{
 	right: 5px;
 }
 
+
 /*----------------Estilos Responsivos------------------*/
 
-@media screen and (min-width:480px){
+@media screen and (min-width:500px){
 	.logo{
 		color: #fff;
 		
