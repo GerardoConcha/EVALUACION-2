@@ -12,7 +12,7 @@
  <header class="main-header">
         <div class="container container--flex">
             <div class="logo-container column column--50">
-                <h1 class="logo">xxxxxxx</h1>
+                <h1 class="logo">Conctacto</h1>
             </div>
             <div class="main-header__contactInfo column column--50">
                 <p class="main-header__contactInfo__phone">
@@ -31,9 +31,9 @@
             <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="index.html" class="menu__link menu__link">Inicio</a></li>
-                <li class="menu__item"><a href="nosotros.html" class="menu__link menu__link--select">Nosotros</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link  menuGaleria__link--select">Galeria</a></li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link  ">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select"">Contacto</a></li>
             </ul>
             <div class="social-icon">
                 <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
@@ -47,55 +47,67 @@
         <img src="img/bannerZAPAT.jpg" alt="" class="banner__img">
         <div class="banner__content">Nuestra casa es tu casa</div>
     </section>
-    <main class="main">
-        <section class="formulario">
-            <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                  <label for="inputState" class="form-label">State</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
-                </div>
-              </form>
 
-      	</section>
+    <section id="contactof">
+        <h4>Contacta con nosotros</h4>
+        <form action="#">
+          <div class="datos-form">
+            <div class="nombre">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre"
+              placeholder="Nombre">
+            </div>
+  
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email"
+              placeholder="Email">
+            </div>
+  
+            <div class="mensaje">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" id="mensaje" cols="30" 
+              rows="10" placeholder="Mensaje"></textarea> 
+            </div>
+            <div class="boton-formulario">
+               <a href="#"class="boton-saber-mas"> enviar mensaje</a>
+            </div>
+            <div class="mapa">
+              <img src="./img/mapa.webp" alt="">
+          </div>
+  
+  
+          </div>
+        </form>
+      </section>
     
+
+
+
+    
+    <footer class="main-footer">
+      <div class="container container--flex">
+          <div class="column column--33">
+              <h2 class="column__title">Visitanos</h2>
+              <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo atque impedit, repudiandae </p>
+          </div>
+          <div class="column column--33">
+              <h2 class="column__title">Contactenos</h2>
+              <p class="column__txt">Mi calle 123 Talcahuano</p>
+              <p class="column__txt">Telefono: 999-999-999</p>
+             
+          </div>
+          <div class="column column--33">
+              <h2 class="column__title">Siguenos</h2>
+              <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+              <p class="column__txt"><a href="" class="icon-twitter">Twitter</a></p>
+              <p class="column__txt"><a href="" class="icon-instagram">Instagram</a></p>
+          </div>
+          <p class="copy">@ 2020 TrendyThreads | Todos los derechos reservados - Gerardo Concha</p>
+      </div>
+  </footer>
+       
+        
 <script src="js/menu.js"></script>  
 </body>
 </html>
