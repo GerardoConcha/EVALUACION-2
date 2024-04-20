@@ -12,7 +12,7 @@
  <header class="main-header">
         <div class="container container--flex">
             <div class="logo-container column column--50">
-                <h1 class="logo">Conctacto</h1>
+                <h1 class="logo">CONTACTO</h1>
             </div>
             <div class="main-header__contactInfo column column--50">
                 <p class="main-header__contactInfo__phone">
@@ -48,33 +48,44 @@
         <div class="banner__content">Nuestra casa es tu casa</div>
     </section>
 
-    <section id="contactof">
-        <h4>Contacta con nosotros</h4>
-        <form action="#">
-          <div class="datos-form">
-            <div class="nombre">
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" id="nombre"
-              placeholder="Nombre">
-            </div>
-  
-            <div class="email">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email"
-              placeholder="Email">
-            </div>
-  
-            <div class="mensaje">
-              <label for="mensaje">Mensaje</label>
-              <textarea name="mensaje" id="mensaje" cols="30" 
-              rows="10" placeholder="Mensaje"></textarea> 
-            </div>
-            <div class="boton-formulario">
-               <a href="#"class="boton-saber-mas"> enviar mensaje</a>
-            </div>
-            <div class="mapa">
-              <img src="./img/mapa.webp" alt="">
-          </div>
+    <section id="contactof" style="display: grid; grid-template-columns: 1fr 1fr;">
+        <div style="padding: 0px 20px;">
+            <h4>Contacta con nosotros</h4>
+            <form action="#">
+                <div class="datos-form">
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    </div>
+    
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="fono">
+                        <label for="fono">Telefono</label>
+                        <input type="text" name="fono" id="fono" placeholder="Telefono">
+                    </div>
+                    
+    
+                    <div class="mensaje">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    </div>
+
+                    <div class="boton-formulario">
+                        <a href="#" class="boton-saber-mas">Enviar mensaje</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10747.080348528121!2d-73.0711284549882!3d-36.79152678999968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5745f460495%3A0x1bf5dd96a8168e34!2sMallplaza%20Tr%C3%A9bol!5e0!3m2!1ses!2scl!4v1713560549350!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+          
   
   
           </div>
