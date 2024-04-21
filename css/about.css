@@ -1,4 +1,4 @@
-.our-team{
+ .our-team{
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -22,7 +22,11 @@
 .our-team__txt{
 	padding: 10px;
 	text-align:justify;
-}
+} 
+
+
+
+
 
 @media screen and (min-width:480px){
 	.our-team__img{

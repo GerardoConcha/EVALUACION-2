@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5{
     margin: auto;
 	
 	
+	
 }
 .container--flex{
     display: flex;
@@ -141,11 +142,10 @@ h1,h2,h3,h4,h5{
     
 }
 
-
-
 .mostrar{
     height: 210px;
 }
+
 /*----------------Estilos Banner------------------*/
 
 .banner{
@@ -188,6 +188,7 @@ h1,h2,h3,h4,h5{
 	padding: 10px;
 	text-align: center;
 	color: black;
+	background-color: #ff0d00;
 	
 }
 .main__title{
@@ -222,6 +223,7 @@ h1,h2,h3,h4,h5{
 	font-weight: bold;
 	font-size: 1.8em;
 	margin: 30px;
+	color: rgb(0, 0, 0);
 }
 
 .today-special .column {
@@ -392,6 +394,8 @@ form textarea {
 }
 
 
+
+
 /*----------------Estilos Responsivos------------------*/
 
 @media screen and (min-width:500px){
@@ -542,8 +546,6 @@ form textarea {
 		flex-direction: column;
 		width: 50%;
 	}
-	
-	
 
 }
 
