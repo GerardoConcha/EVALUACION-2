@@ -166,7 +166,9 @@ h1,h2,h3,h4,h5{
     width: 100%;
     height: 400px;
     object-fit: cover
+		
 }
+
 .banner__content {
     width: 70%;
     color: white;
@@ -222,7 +224,7 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
-	margin: 30px;
+	margin: 11px;
 	color: rgb(0, 0, 0);
 }
 
@@ -274,6 +276,123 @@ h1,h2,h3,h4,h5{
         text-align: center;
 	
     }	   
+
+
+
+
+/*----------------TIENDA-NOSOSTROS---------*/
+
+
+.tienda {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.tienda img {
+    width: 500px; /* Imagen se ajusta al ancho del contenedor */
+    border-radius: 4%;
+}
+
+.tienda h2 {
+    margin-left:60px; /* Espacio entre la imagen y el texto */
+    max-width: 900px; /* Máximo ancho del texto */
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.tienda2{
+	margin: 10px;
+}
+
+
+.tienda2 img {
+    width:500px;
+    border-radius: 4%;
+    float: right; /* Alinea la imagen a la derecha */
+}
+
+.tienda2 h2 {
+    margin-left:60px; /* Espacio entre la imagen y el texto */
+    max-width: 900px; /* Máximo ancho del texto */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------------------RESPONSIVE TIENDAS--------------------------*/
+/* -----------------------RESPONSIVE TIENDAS--------------------------*/
+/* Para pantallas de 768px */
+@media screen and (max-width: 768px) {
+    .tienda {
+        flex-direction: column; /* Cambia a disposición de columna */
+        align-items: center;
+    }
+
+    .tienda img {
+        width: 100%; /* La imagen ocupa todo el ancho disponible */
+    }
+
+    .tienda h2 {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        max-width: 100%; /* El texto ocupa todo el ancho disponible */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tienda img {
+        width: 90%; 
+    }
+
+    .tienda h2 {
+        font-size: 14px; 
+
+    }
+}
+
+/*------TIENDA2-----*/
+
+@media screen and (max-width: 768px) {
+    .tienda2 {
+        flex-direction: column; /* Cambia a disposición de columna */
+        align-items: center;
+    }
+
+    .tienda2 img {
+        width: 100%; /* La imagen ocupa todo el ancho disponible */
+    }
+
+    .tienda2 h2 {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        max-width: 100%; /* El texto ocupa todo el ancho disponible */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tienda2 img {
+        width: 90%; /* La imagen ocupa el 90% del ancho disponible */
+    }
+
+    .tienda2 h2 {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}
+
+
+
+
+
+
+
 
 
 /* -----------------FORMULARIO CONTACTO------------- */
@@ -395,7 +514,6 @@ form textarea {
 
 
 
-
 /*----------------Estilos Responsivos------------------*/
 
 @media screen and (min-width:500px){
@@ -403,6 +521,7 @@ form textarea {
 		color: #fff;
 		
 	}
+	
 	.main-header__contactInfo{
 		text-align:right;
 	}
@@ -463,6 +582,85 @@ form textarea {
 	  }
 
 	
+
+	
+}
+
+
+
+
+@media screen and (min-width:400px){
+	.logo{
+		color: #fff;
+		
+	}
+	
+	.main-header__contactInfo{
+		text-align:right;
+	}
+	.banner{
+		margin-top: -145px;
+		z-index: -1000;
+	}
+	.main-header__contactInfo__phone{
+		background: none;
+		padding: 0;
+		margin: 0;	
+	}
+
+	.main-header__contactInfo__addres{
+		color: #fff;
+	}
+	.main_nav{
+		background:rgba(0,0,0,0.85);
+	}
+	.banner__content{
+		font-size:1.5em;
+	}
+	.column--50{
+		width: 49%;
+	}
+	.column--50--25{
+		width: 49%;
+	}
+	.column--33{
+		width: 32%;
+	}
+	
+	.main__about_description .column:nth-child(2){
+		padding-left: 20px;
+		font-size: .9em;
+		
+	}
+	.main__about_description .btn{
+		margin: 0;
+	}
+	.today-special .column {
+		border: 5px solid #ddd;
+		padding: 5px;
+	}
+	.today-special__img{
+		height: 200px;
+		object-fit: cover;
+	}
+	.main-footer .container--flex{
+		align-items: flex-start;
+	}
+
+	.mapa {
+		text-align: center;
+	  }
+	
+	  .mapa iframe {
+		width: 88%;
+		height: 350px;
+		border-radius: 2%;
+	  }
+
+
+	  
+
+	
 }
 
 
@@ -473,6 +671,7 @@ form textarea {
 	.logo{
 		padding-top: 20px;
 		font-size: 2em;
+		color: white;
 	
 		
 	}
@@ -546,6 +745,9 @@ form textarea {
 		flex-direction: column;
 		width: 50%;
 	}
+
+
+	
 
 }
 
